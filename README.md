@@ -7,29 +7,29 @@
 ## 安装
 
 ```Shell
-$ composer require sunshangwu/laravel-pay
+$ composer require Wlevpay/laravel-pay
 ```
 
 ### 添加 service provider（optional. if laravel < 5.5 || lumen）
 
 ```PHP
 // laravel < 5.5
-sunshangwu\LaravelPay\PayServiceProvider::class,
+Wlevpay\LaravelPay\PayServiceProvider::class,
 
 // lumen
-$app->register(sunshangwu\LaravelPay\PayServiceProvider::class);
+$app->register(Wlevpay\LaravelPay\PayServiceProvider::class);
 ```
 
 ### 添加 alias（optional. if laravel < 5.5）
 
 ```PHP
-'Pay' => sunshangwu\LaravelPay\Facades\Pay::class,
+'Pay' => Wlevpay\LaravelPay\Facades\Pay::class,
 ```
 
 ### 配置文件
 
 ```Shell
-$ php artisan vendor:publish --provider="sunshangwu\\LaravelPay\\PayServiceProvider" --tag=laravel-pay
+$ php artisan vendor:publish --provider="Wlevpay\\LaravelPay\\PayServiceProvider" --tag=laravel-pay
 ```
 
 **lumen 用户请手动复制**
@@ -87,7 +87,7 @@ $result = Pay::wechat()->mp($order);
 
 ```
 
-具体使用说明请传送至 [https://github.com/sunshangwu/pay](https://github.com/sunshangwu/pay)
+具体使用说明请传送至 [https://github.com/Wlevpay/pay](https://github.com/Wlevpay/pay)
 
 ## License
 

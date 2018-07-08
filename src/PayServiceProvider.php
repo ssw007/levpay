@@ -1,11 +1,11 @@
 <?php
 
-namespace sunshangwu\LaravelPay;
+namespace Wlevpay\LaravelPay;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
-use sunshangwu\Pay\Pay;
+use Yansongda\Pay\Pay;
 
 class PayServiceProvider extends ServiceProvider
 {
@@ -19,7 +19,7 @@ class PayServiceProvider extends ServiceProvider
     /**
      * Boot the service.
      *
-     * @author sunshangwu <six@sunshangwu.cn>
+     * @author Wlevpay <six@Wlevpay.cn>
      */
     public function boot()
     {
@@ -36,7 +36,7 @@ class PayServiceProvider extends ServiceProvider
     /**
      * Regist the service.
      *
-     * @author sunshangwu <six@sunshangwu.cn>
+     * @author Wlevpay <six@Wlevpay.cn>
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class PayServiceProvider extends ServiceProvider
     /**
      * Get services.
      *
-     * @author sunshangwu <six@sunshangwu.cn>
+     * @author Wlevpay <six@Wlevpay.cn>
      *
      * @return array
      */

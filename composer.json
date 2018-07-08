@@ -1,15 +1,11 @@
 {
-    "name": "sswlaravel/levpay",
+    "name": "wlevpay/levpay",
     "description": "Alipay,WeChat laravel支付扩展包",
-    "keywords": ["alipay", "wechat", "pay", "laravel", "package","ssw","sunshangwu"],
-    "support": {
-        "issues": "https://github.com/sunshangwu/laravel-pay/issues",
-        "source": "https://github.com/sunshangwu/levpay.git"
-    },
+    "keywords": ["alipay", "wechat", "pay", "laravel", "package","Wlevpay"],
     "authors": [
         {
-            "name": "sunshangwu",
-            "email": "six@sunshangwu.cn"
+            "name": "Wlevpay",
+            "email": "six@Wlevpay.cn"
         }
     ],
     "require": {
@@ -18,16 +14,16 @@
     },
     "autoload": {
         "psr-4": {
-            "sunshangwu\\LaravelPay\\": "src"
+            "Wlevpay\\LaravelPay\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "sunshangwu\\LaravelPay\\PayServiceProvider"
+                "Wlevpay\\LaravelPay\\PayServiceProvider"
             ],
             "aliases": {
-                "Pay": "sunshangwu\\LaravelPay\\Facades\\Pay"
+                "Pay": "Wlevpay\\LaravelPay\\Facades\\Pay"
             }
         }
     },

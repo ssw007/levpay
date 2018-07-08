@@ -1,6 +1,6 @@
 <?php
 
-namespace sunshangwu\LaravelPay\Facades;
+namespace Wlevpay\LaravelPay\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

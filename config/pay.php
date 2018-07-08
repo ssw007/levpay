@@ -17,7 +17,7 @@ return [
         // 自己的私钥，签名时使用
         'private_key' => env('ALI_PRIVATE_KEY', ''),
 
-        // optional，默认 warning；日志路径为：sys_get_temp_dir().'/logs/sunshangwu.pay.log'
+        // optional，默认 warning；日志路径为：sys_get_temp_dir().'/logs/Wlevpay.pay.log'
         'log' => [
             'file' => storage_path('logs/alipay.log'),
         //     'level' => 'debug'
@@ -52,7 +52,7 @@ return [
         // 客户端秘钥路径，退款、红包等需要用到。请填写绝对路径，linux 请确保权限问题。pem 格式。
         'cert_key' => '',
 
-        // optional，默认 warning；日志路径为：sys_get_temp_dir().'/logs/sunshangwu.pay.log'
+        // optional，默认 warning；日志路径为：sys_get_temp_dir().'/logs/Wlevpay.pay.log'
         'log' => [
             'file' => storage_path('logs/wechat.log'),
         //     'level' => 'debug'
